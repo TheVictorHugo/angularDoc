@@ -1,0 +1,11 @@
+<h1>{{titulo}}</h1>
+<h2>My favorite hero is:{{myhero}} </h2>
+<p>Heros:</p>
+
+<ul>
+  <li *ngFor=""let hero of heros>
+    {heros}
+  </li>
+</ul>
+
+<p *ngIf="heroes.length > 3">There are many heros !</p>
